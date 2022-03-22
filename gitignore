@@ -1,4 +1,7 @@
+Export/
 include/
 Lib/
 Scripts/
 *.cnfg
+MaxPrepScraping/test.py
+MaxPrepScraping/srs.py
