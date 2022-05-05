@@ -80,7 +80,3 @@ class WebScraper:
 
         # return df to csv, with the filename formatted to include the sport, state, and date
         return games.reset_index(drop=True)
-
-    def df_to_csv(self):
-        export_path = r'C:\Users\student\Downloads\dumbProj\heroku-app\heroku\Export'
-        return self.games_to_df().to_csv(export_path + f'\{self.sport}_{self.state}_{self.start_date}_{self.end_date}.csv')
